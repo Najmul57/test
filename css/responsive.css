@@ -1,0 +1,241 @@
+@media (min-width: 1590px) and (max-width: 1720px) {}
+
+@media (min-width: 1500px) and (max-width: 1590px) {}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .single-visit span {
+        padding: 10px;
+    }
+
+    .single-slider span {
+        font-size: 25px;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-event {
+        margin-top: 30px;
+    }
+
+    .teacher__info__method {
+        display: block !important;
+    }
+
+    .teacher__info__method img {
+        width: auto;
+    }
+
+    .teacher__photo__item {
+        width: auto;
+        text-align: center;
+    }
+
+    .single-slider span {
+        font-size: 25px;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .crest-photo {
+        justify-content: center;
+    }
+
+    .single-crest img {
+        width: 40%;
+    }
+
+    .single-slider::after {
+        opacity: 0.5;
+    }
+
+    .single-event {
+        margin-top: 50px;
+    }
+
+    .single-slider span {
+        display: none;
+    }
+
+    .current_time {
+        position: inherit;
+        justify-content: space-between;
+    }
+
+    .news-container .title {
+        padding: 7px 30px;
+        height: auto;
+        margin-top: 3px;
+    }
+
+    .message-author-photo,
+    .welcome-message-content {
+        margin-top: 10px;
+    }
+
+    .single-image {
+        height: 200px;
+    }
+
+    .footer-widget {
+        margin-top: 20px;
+    }
+
+    .footer-widget ul {
+        margin-left: 20px;
+    }
+
+    .single-visit span {
+        font-size: 25px;
+        padding: 25px 5px;
+    }
+
+    .notice-details embed {
+        max-height: 400px;
+    }
+
+    .news-image img {
+        max-height: 200px;
+        min-height: 200px;
+    }
+
+    .mission-content {
+        padding: 0 15px;
+    }
+
+    .teacher__filter .nav-item {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .teacher__info__method {
+        display: block !important;
+    }
+
+    .teacher__info__method img {
+        height: 100%;
+        width: auto;
+    }
+
+    .teacher__photo__item {
+        width: auto;
+        text-align: center;
+    }
+
+    .std__search {
+        margin-top: 20px;
+    }
+
+    .breadcrumb__space {
+        padding: 50px 0;
+    }
+
+    .breadcrumb-area h2 {
+        font-size: 25px;
+    }
+
+    .section__padding {
+        padding: 50px 0;
+    }
+
+    .visit-area {
+        padding-top: 50px;
+    }
+
+    .update__notice img {
+        width: 30%;
+    }
+
+    .notice-image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .update__notice h6 {
+        padding: 0 15px;
+    }
+
+    .update__notice {
+        margin-top: 0;
+    }
+
+    .gallery-area.section__padding {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .career-area .pdf-notice embed {
+        height: 100%;
+        max-height: 400px;
+        min-height: 400px;
+    }
+
+    .single-event.single-notice {
+        margin-top: 0;
+    }
+
+    .single-image,
+    .single-video {
+        height: 150px;
+    }
+
+    .single-event.single-news {
+        margin-top: 0;
+    }
+
+    .school__contact {
+        flex-wrap: wrap;
+    }
+
+    .school__contact table:last-child tr {
+        text-align: left;
+    }
+
+    .pdf-notice h5 {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .showing__result embed {
+        min-height: 400px;
+        max-height: 400px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .single-image {
+        height: 250px;
+    }
+
+    .teacher__filter .nav-item {
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .std__search {
+        margin-top: 0;
+    }
+
+    .breadcrumb__space {
+        padding: 80px 0;
+    }
+
+    .single-image,
+    .single-video {
+        height: 200px;
+    }
+}

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Kaniz Fatema</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body style="background: url('img/bg.jpg')">
+  <!-- header start -->
+
+  <!-- top header -->
+  <div class="top-header">
+    <div class="news-container">
+      <div class="d-flex current_time">
+        <strong id="currtime"></strong>
+        <strong id="currDate"><span id="current_month">May</span>-
+          <span id="current_day">5</span>-<span id="current_year"></span></strong>
+      </div>
+
+      <div class="title">News</div>
+
+      <ul>
+        <li>
+          প্রভাতফেরি, শহিদমিনারে পুস্পস্তবক অর্পণ, সাংস্কৃতিক অনুষ্ঠান, আলোচনা
+          ও দোয়া'র মধ্য দিয়ে যথাযোগ্য মর্যাদায় কানিজ ফাতেমা গার্লস্‌ স্কুল
+          এন্ড কলেজ, মানিকগঞ্জ-এ পালিত হলো শহিদ দিবস ও আন্তর্জাতিক মাতৃভাষা
+          দিবস ২০২৩.
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- top header -->
+
+  <header class="header" style="background-color: #006cb0">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-xl-4 col-lg-5 col-md-7 col-sm-7 col-12">
+          <div class="logo">
+            <a href="./"><img src="img/logo1.png" class="w-100" alt="" /></a>
+          </div>
+        </div>
+        <div class="d-none d-lg-block col-lg-4 col-xl-5"></div>
+        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5 col-12">
+          <div class="crest-photo">
+            <div class="single-crest text-center">
+              <img src="img/crest/best institute.png" alt="" />
+              <span>শ্রেষ্ঠ শিক্ষা প্রতিষ্ঠান</span>
+            </div>
+            <div class="single-crest text-center">
+              <img src="img/crest/best institute.png" alt="" />
+              <span>শ্রেষ্ঠ শিক্ষা প্রতিষ্ঠান</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row border-top header-sticky">
+        <div class="col-12">
+          <div class="open-nav-menu">
+            <span></span>
+          </div>
+          <div class="menu-overlay"></div>
+          <!-- navigation menu start -->
+          <nav class="nav-menu">
+            <div class="close-nav-menu">
+              <img src="img/close.svg" alt="close" />
+            </div>
+            <ul class="menu">
+              <li class="menu-item menu-item-has-children">
+                <a href="./">Home</a>
+              </li>
+
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">About <i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="./about">About Us</a></li>
+                  <li class="menu-item">
+                    <a href="./mission">Our Mission</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./vission">Our Vission</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./advisor">Advisor Body</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Academic <i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./rules">Rules & Regulation</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./std__info">Student Information</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./teacher__info">Teacher Information</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./class__routine">Class Routine</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Administration <i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./carrier">Carrier</a>
+                  </li>
+                  <li class="menu-item"><a href="./tender">Tender</a></li>
+                  <li class="menu-item">
+                    <a href="./achievement">Achievement</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./publication">Publication</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./book__list">Book List</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Result<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./semister">Term / Semester</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./publication">Publication</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./book__list">Book List</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Admission<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <!-- <li class="menu-item">
+                    <a href="admission__info.html">Admission Information</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="admission__guideline.html">Admission Guidelines</a>
+                  </li> -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#admission__contact">Admission
+                      Contact</a>
+                  </li>
+                  <!-- <li class="menu-item">
+                    <a href="scholarship.html">Scholarship</a>
+                  </li> -->
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Facilities<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./auditorium">Auditorium</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./lab">Lab & Amenities</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Gallery<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./photo">Photo Gallery</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./video">Video Gallery</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Club Activities<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./club">Computer Club</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="./contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- navigation menu end -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- main start -->
+
+  <!-- breadcrumb start -->
+  <div class="breadcrumb-area text-center  position-relative z-2 breadcrumb__space"
+    style="background-image: url(img/slider/3.jpg)">
+    <h2>Teacher Information</h2>
+  </div>
+  <!-- breadcrumb end -->
+
+
+  <!-- teacher start -->
+  <div class="teacher section__padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2">
+          <div class="welcome-message-info">
+            <h1 class="fs-4 w-100 p-2 card text-center">
+              Lecturer Khandaker Umme Salma (US)--Lecturer
+              <span class="d-block"><strong>College</strong></span>
+            </h1>
+            <div class="teacher__info__method message-author-details d-flex justify-content-between mt-3">
+              <div class="teacher__photo__item">
+                <img src="img/teacher/3.jpg" alt="" />
+              </div>
+              <div class="p-3">
+                <div class="teacher__single__info">
+                  <h4>Education</h4>
+                  <div class="teacher__education">
+                    <strong>Islamic University, Kushtia - (1)</strong>
+                    <h6>MSS (Economics)</h6>
+                    <b>2012</b>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="teacher__single__info">
+                  <h4>Experience</h4>
+                  <div class="teacher__education">
+                    <strong>Paradise Internatioanl School</strong>
+                    <h6>(Assistant Teacher)</h6>
+                    <b>2015/09/01 - 2016/06/30</b>
+                  </div>
+                  <div class="teacher__education">
+                    <strong>Kaniz Fatema Girls' School & College</strong>
+                    <h6>(Lecturer (Economics))</h6>
+                    <b>2016/12/07 - present</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="mt-2">
+              First and foremost, I will love teaching and it is my life's mission. I realize by being a
+              teacher, I am making an important contribution to the efforts of national development. I
+              constantly endeavour to fill my mind, with great thoughts and spread the nobility in
+              thinking and action among my students. Being a teacher I love to celebrate the success of my
+              students all time. Because their success is my success.
+            </p>
+            <div class="d-flex flex-wrap align-items-center justify-content-between single__teacher__bottom">
+              <span><i class="fa fa-phone"></i><a href="tel:+8801723664611">01723664611</a></span>
+              <span> <i class="fa fa-envelope"></i> <a
+                  href="mailto:sadirul2012@gmail.com">sadirul2012@gmail.com</a></span>
+              <div class="teacher__social d-flex single__teacher__social justify-content-end">
+                <a href="#" target="_blank" title="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" target="_blank" title="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" title="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" target="_blank" title="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" target="_blank" title="instagram"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- teacher end -->
+
+
+  <!-- main end -->
+
+  <!-- footer start -->
+  <footer>
+    <div class="footer-area pt-5 pb-5" style="background-color: #222222">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-4">
+            <div class="footer-widget">
+              <a href="./"><img src="img/logo1.png" class="w-100" alt="" /></a>
+              <ul class="mt-4">
+                <li>
+                  <i class="fa fa-location-dot"></i><span>Baroil,Nabagram,Manikganj</span>
+                </li>
+                <li>
+                  <i class="fa fa-phone"></i><a href="tel:+8801714163520">01714163520</a>
+                </li>
+                <li>
+                  <i class="fa fa-envelope"></i><a href="mailto:kfgsbd@gmail.com">kfgsbd@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4">
+            <div class="footer-widget">
+              <h5>important links</h5>
+              <ul class="mt-4 footer-links">
+                <li><a href="#">Dhaka Education Board</a></li>
+                <li><a href="#">Ministry of Education</a></li>
+                <li><a href="#"> National University</a></li>
+                <li><a href="#">10 minute school</a></li>
+                <li><a href="#">Khan Academy</a></li>
+                <li><a href="#">Teacher's Portal</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4">
+            <div class="footer-widget">
+              <h5>campus life</h5>
+              <ul class="mt-4 footer-links">
+                <li><a href="#">Accommodation</a></li>
+                <li><a href="#">Medical Unit</a></li>
+                <li><a href="#">Campus Shop</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12">
+            <div class="footer-widget">
+              <h5>subscribe</h5>
+              <form action="" method="post" class="mt-4">
+                <input type="email" class="form-control" placeholder="enter your email" />
+                <i class="fa fa-search"></i>
+              </form>
+
+              <div class="footer-social">
+                <a href="#" target="_blank" title="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center pt-3 pb-3 text-white fw-bold" style="background-color: #006cb0">
+      <span>&copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        - Powered by
+        <a href="https://classicit.com.bd/" target="_blank" class="text-black">
+          Classic IT</a>
+        . All rights reserved.
+      </span>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <!-- admission contact Modal -->
+  <div class="modal fade" id="admission__contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalLabel">
+            <strong>Admission Contact</strong>
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body admission__info">
+          <div class="card p-3 text-center">
+            <img src="img/logo.png" alt="" />
+            <h4>Kaniz Fatema Girls School & College</h4>
+            <h6>Baroil,Nabagram,Manikganj</h6>
+            <p>
+              Admission Help Line :
+              <strong><a href="tel:+8801714163520">01714163520</a></strong>
+            </p>
+            <p>
+              Admission Email :
+              <strong><a href="mailto:kfgsbd@gmail.com">kfgsbd@gmail.com</a></strong>
+            </p>
+            <div class="footer-social">
+              <a href="#" target="_blank" title="facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- bottom fixed -->
+  <a id="download__info" href="img/540cb75550adf33f281f29132dddd14fded85bfc.pdf" download><i
+      class="fa-solid fa-cloud-arrow-down"></i>prospectus</a>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Kaniz Fatema</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body style="background: url('img/bg.jpg')">
+
+  <!-- Window Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/modal-image.jpg" alt="" class="w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- header start -->
+
+  <!-- top header -->
+  <div class="top-header">
+    <div class="news-container">
+      <div class="d-flex current_time">
+        <strong id="currtime"></strong>
+        <strong id="currDate"><span id="current_month">May</span>-
+          <span id="current_day">5</span>-<span id="current_year"></span></strong>
+      </div>
+
+      <div class="title">News</div>
+
+      <ul>
+        <li>
+          প্রভাতফেরি, শহিদমিনারে পুস্পস্তবক অর্পণ, সাংস্কৃতিক অনুষ্ঠান, আলোচনা
+          ও দোয়া'র মধ্য দিয়ে যথাযোগ্য মর্যাদায় কানিজ ফাতেমা গার্লস্‌ স্কুল
+          এন্ড কলেজ, মানিকগঞ্জ-এ পালিত হলো শহিদ দিবস ও আন্তর্জাতিক মাতৃভাষা
+          দিবস ২০২৩.
+        </li>
+        <li>
+          প্রভাতফেরি, শহিদমিনারে পুস্পস্তবক অর্পণ, সাংস্কৃতিক অনুষ্ঠান, আলোচনা
+          ও দোয়া'র মধ্য দিয়ে যথাযোগ্য মর্যাদায় কানিজ ফাতেমা গার্লস্‌ স্কুল
+          এন্ড কলেজ, মানিকগঞ্জ-এ পালিত হলো শহিদ দিবস ও আন্তর্জাতিক মাতৃভাষা
+          দিবস ২০২৩.
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- top header -->
+
+  <header class="header" style="background-color: #006cb0">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-xl-4 col-lg-5 col-md-7 col-sm-7 col-12">
+          <div class="logo">
+            <a href="./"><img src="img/logo1.png" class="w-100" alt="" /></a>
+          </div>
+        </div>
+        <div class="d-none d-lg-block col-lg-4 col-xl-5"></div>
+        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5 col-12">
+          <div class="crest-photo">
+            <div class="single-crest text-center">
+              <img src="img/crest/best institute.png" alt="" />
+              <span>শ্রেষ্ঠ শিক্ষা প্রতিষ্ঠান</span>
+            </div>
+            <div class="single-crest text-center">
+              <img src="img/crest/best institute.png" alt="" />
+              <span>শ্রেষ্ঠ শিক্ষা প্রতিষ্ঠান</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row border-top header-sticky">
+        <div class="col-12">
+          <div class="open-nav-menu">
+            <span></span>
+          </div>
+          <div class="menu-overlay"></div>
+          <!-- navigation menu start -->
+          <nav class="nav-menu">
+            <div class="close-nav-menu">
+              <img src="img/close.svg" alt="close" />
+            </div>
+            <ul class="menu">
+              <li class="menu-item menu-item-has-children">
+                <a href="./">Home</a>
+              </li>
+
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">About <i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="./about">About Us</a></li>
+                  <li class="menu-item">
+                    <a href="./mission">Our Mission</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./vission">Our Vission</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./advisor">Advisor Body</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Academic <i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./rules">Rules & Regulation</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./std__info">Student Information</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./teacher__info">Teacher Information</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./class__routine">Class Routine</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Administration <i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./carrier">Carrier</a>
+                  </li>
+                  <li class="menu-item"><a href="./tender">Tender</a></li>
+                  <li class="menu-item">
+                    <a href="./achievement">Achievement</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./publication">Publication</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./book__list">Book List</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Result<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./semister">Term / Semester</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./publication">Publication</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./book__list">Book List</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Admission<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <!-- <li class="menu-item">
+                    <a href="admission__info.html">Admission Information</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="admission__guideline.html">Admission Guidelines</a>
+                  </li> -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#admission__contact">Admission
+                      Contact</a>
+                  </li>
+                  <!-- <li class="menu-item">
+                    <a href="scholarship.html">Scholarship</a>
+                  </li> -->
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Facilities<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./auditorium">Auditorium</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./lab">Lab & Amenities</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Gallery<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./photo">Photo Gallery</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./video">Video Gallery</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Club Activities<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="./club">Computer Club</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="./contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- navigation menu end -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- main start -->
+
+  <!-- slider start -->
+  <div class="slider-area">
+    <div class="slider-active owl-carousel">
+      <div class="single-slider">
+        <img src="img/slider/2.jpg" class="w-100 h-50" alt="slider`" />
+        <span>HSC Admission</span>
+      </div>
+      <div class="single-slider">
+        <img src="img/slider/3.jpg" class="w-100 h-50" alt="slider`" />
+        <span>আগামী ১৩ই ফেব্রুয়ারি ২০২৩ বার্ষিক ক্রীড়া প্রতিযোগিতা উপলক্ষ্যে শুভ
+          উদ্বোধন করেন প্রতিষ্ঠানের মাননীয় অধ্যক্ষ মুহম্মদ আবদুল হালিম
+          স্যার।</span>
+      </div>
+      <div class="single-slider">
+        <img src="img/slider/4.jpg" class="w-100 h-50" alt="slider`" />
+        <span>মহান বিজয় দিবস ২০২২ উপলক্ষে মানিকগঞ্জ জেলায় আয়োজিত কুচকাওয়াজে কানিজ
+          ফাতেমা গার্লস স্কুল এন্ড কলেজ উচ্চমাধ্যমিক শাখায় প্রথম,মাধ্যমিক
+          শাখায় ১ম,প্রাইমারী শাখায় ২য় স্থান অধিকার করার গৌরব অর্জন করে।</span>
+      </div>
+      <div class="single-slider">
+        <img src="img/slider/5.jpg" class="w-100 h-50" alt="slider`" />
+        <span>Best Institution Award 2019</span>
+      </div>
+    </div>
+  </div>
+  <!-- slider end -->
+
+  <!-- welcome message start -->
+  <div class="welcom-message section__padding">
+    <div class="container">
+      <div class="row align-items-center mb-3">
+        <div class="col-xl-3 col-md-4">
+          <div class="message-author-photo">
+            <img src="img/welcome/Chairman-Sir.png" alt="" />
+            <h5>মাননীয় প্রতিষ্ঠাতা ও চেয়ারম্যান</h5>
+            <span>কাজী এ এফ এম যাইনুল আবেদীন</span>
+          </div>
+        </div>
+        <div class="col-xl-9 col-md-8">
+          <div class="welcome-message-content">
+            <h5>মাননীয় প্রতিষ্ঠাতা ও চেয়ারম্যান এর বাণী</h5>
+            <p>
+              মা-ই হচ্ছেন শিশুর সর্বোত্তম শিক্ষক। আজকের ছোট্ট মেয়েটি আগামী
+              দিনে যেন একজন সফল মা হিসেবে স্বাচ্ছন্দ্যময়, ফলপ্রসূ ও নৈতিক
+              মূল্যবোধসম্পন্ন পারিবারিক ও সামাজিক জীবন গড়তে কার্যকর ভূমিকা
+              রাখতে পারে সে জন্য শিশুকাল থেকেই তাকে যথাযথ শিক্ষায় গড়ে তুলতে
+              হবে। একজন শিক্ষিত মা একটি শিক্ষিত সমাজ তথা শিক্ষিত জাতি গঠনে
+              অন্যতম নিয়ামক শক্তি হিসেবে কাজ করেন। তাই একজন শিক্ষিত মা গড়ার
+              মহান ব্রত নিয়ে নবগ্রামের বারইল বাজার সংলগ্ন নিভৃত পল্লি¬তে ২০০৫
+              সালে ‘কানিজ ফাতেমা গার্লস্ স্কুলের’ কার্যক্রম শুরু হয়। এস এস সি
+              পাস করার পর কলেজে পড়া নিয়ে ছাত্রীরা বেশ সমস্যায় পড়ে বলে আমরা
+              লক্ষ করেছি। বসত-বাড়ি থেকে দূরে কলেজে গিয়ে ভর্তি হওয়া, মেস বা
+              হোস্টেলে থাকা,
+              <button data-bs-toggle="modal" data-bs-target="#chairmanMessage">
+                Read more
+              </button>
+            </p>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="chairmanMessage" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    মাননীয় প্রতিষ্ঠাতা ও চেয়ারম্যান এর বাণী
+                  </h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body welcome-message-info">
+                  <div class="message-author-details d-flex align-items-center">
+                    <img src="img/welcome/Chairman-Sir.png" alt="" />
+                    <div class="p-3">
+                      <h5>মাননীয় প্রতিষ্ঠাতা ও চেয়ারম্যান</h5>
+                      <span>কাজী এ এফ এম যাইনুল আবেদীন</span>
+                    </div>
+                  </div>
+                  <p class="mt-2">
+                    মা-ই হচ্ছেন শিশুর সর্বোত্তম শিক্ষক। আজকের ছোট্ট মেয়েটি
+                    আগামী দিনে যেন একজন সফল মা হিসেবে স্বাচ্ছন্দ্যময়, ফলপ্রসূ
+                    ও নৈতিক মূল্যবোধসম্পন্ন পারিবারিক ও সামাজিক জীবন গড়তে
+                    কার্যকর ভূমিকা রাখতে পারে সে জন্য শিশুকাল থেকেই তাকে যথাযথ
+                    শিক্ষায় গড়ে তুলতে হবে। একজন শিক্ষিত মা একটি শিক্ষিত সমাজ
+                    তথা শিক্ষিত জাতি গঠনে অন্যতম নিয়ামক শক্তি হিসেবে কাজ করেন।
+                    তাই একজন শিক্ষিত মা গড়ার মহান ব্রত নি
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-xl-3 col-md-4">
+          <div class="message-author-photo">
+            <img src="img/welcome/PMPicture1.png" alt="" />
+            <h5>মাননীয় অধ্যক্ষ</h5>
+            <span>মুহাম্মদ আব্দুল হালিম</span>
+          </div>
+        </div>
+        <div class="col-xl-9 col-md-8">
+          <div class="welcome-message-content">
+            <h5>মাননীয় অধ্যক্ষের বাণী</h5>
+            <p>
+              মা-ই হচ্ছেন শিশুর সর্বোত্তম শিক্ষক। আজকের ছোট্ট মেয়েটি আগামী
+              দিনে যেন একজন সফল মা হিসেবে স্বাচ্ছন্দ্যময়, ফলপ্রসূ ও নৈতিক
+              মূল্যবোধসম্পন্ন পারিবারিক ও সামাজিক জীবন গড়তে কার্যকর ভূমিকা
+              রাখতে পারে সে জন্য শিশুকাল থেকেই তাকে যথাযথ শিক্ষায় গড়ে তুলতে
+              হবে। একজন শিক্ষিত মা একটি শিক্ষিত সমাজ তথা শিক্ষিত জাতি গঠনে
+              অন্যতম নিয়ামক শক্তি হিসেবে কাজ করেন। তাই একজন শিক্ষিত মা গড়ার
+              মহান ব্রত নিয়ে নবগ্রামের বারইল বাজার সংলগ্ন নিভৃত পল্লি¬তে ২০০৫
+              সালে ‘কানিজ ফাতেমা গার্লস্ স্কুলের’ কার্যক্রম শুরু হয়। এস এস সি
+              পাস করার পর কলেজে পড়া নিয়ে ছাত্রীরা বেশ সমস্যায় পড়ে বলে আমরা
+              লক্ষ করেছি। বসত-বাড়ি থেকে দূরে কলেজে গিয়ে ভর্তি হওয়া, মেস বা
+              হোস্টেলে থাকা,
+              <button data-bs-toggle="modal" data-bs-target="#principleMessage">
+                Read more
+              </button>
+            </p>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="principleMessage" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    মাননীয় অধ্যক্ষের বাণী
+                  </h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body welcome-message-info">
+                  <div class="message-author-details d-flex align-items-center">
+                    <img src="img/welcome/PMPicture1.png" alt="" />
+                    <div class="p-3">
+                      <h5>মাননীয় অধ্যক্ষের</h5>
+                      <span>মুহাম্মদ আব্দুল হালিম</span>
+                    </div>
+                  </div>
+                  <p class="mt-2">
+                    নবগ্রাম ইউনিয়নের মধ্যে সবচেয়ে আধুনিক গার্লস স্কুল। স্কুলের
+                    লক্ষ্য ও উদ্দেশ্য দরিদ্র জনগষ্টি কে শিক্ষিত করে তোলা । কোন
+                    টিউশন ফি নেওয়া হয় না এবং ইউনিফর্মও ফ্রি দেওয়া হয়ে থাকে।
+                    এটি একটি সম্পূর্ন সেবামূলক অলাভজনক প্রতিষ্ঠান । গ্রুপ কিউ
+                    এর সদস্য কোম্পানী ও শিল্প প্রতিষ্ঠান সমূহ এবং তাদের
+                    পরিচালকবৃন্দ ব্যাক্তিগত আয় থেকে কাজী আবেদীন ওয়েলফেয়ার
+                    ট্রাষ্ট গঠনকরত: উক্ত ট্রাষ্টকে অর্থায়ন করেন। সেই ট্রাস্টের
+                    মাধ্যমে সেবামূলক ভিত্তিতে স্কুলটি পরিচালিত হয়্ এর পেছনে
+                    নূন্যতম ব্যবসায়ীক স্বার্থ নেই। স্কুলটিতে সম্পূর্ন বিনা
+                    বেতনে ছাত্রীদের পড়াশোনা করানো হয়। আজকের শিশু আগামী দিনের
+                    মা তাই ছাত্রীদের সুন্দর ও সুশিক্ষায় শিক্ষিত করে গড়ে তোলার
+                    প্রত্যয় নিয়ে স্কুলটি কাজ করে যাচ্ছে। স্কুলটি সম্পূর্ন
+                    অরাজনৈতিক ও সেবামূলক প্রতিষ্ঠান হিসেবে ইতিমধ্যে জেলার
+                    শ্রেষ্ঠ স্কুল হিসেবে পরিচিতি পেয়েছে।
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- welcome message end -->
+
+  <!-- counter start -->
+  <div class="counter-area section__padding">
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-md-3 col-sm-6 col-6">
+          <div class="single-counter text-center text-white">
+            <i class="fa-solid fa-building-columns"></i>
+            <h6> <span>2005</span>Founded</h6>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+          <div class="single-counter text-center text-white">
+            <i class="fas fa-user-shield"></i>
+            <h6><span class="counter">50</span>Teachers</h6>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+          <div class="single-counter text-center text-white">
+            <i class="fa-solid fa-users"></i>
+            <h6><span class="counter">1100</span>Students</h6>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+          <div class="single-counter text-center text-white">
+            <i class="fa-solid fa-gifts"></i>
+            <h6><span class="counter">2</span>Awards</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- counter end -->
+
+  <!-- welcome school start -->
+  <div class="welcome-school-area section__padding">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-8">
+          <div class="school-content">
+            <h4>Welcome to Kaniz Fatema Girls' School & College</h4>
+            <p>
+              কানিজ ফাতেমা গার্লস স্কুল এন্ড কলেজ (Kaniz Fatema Girls' School
+              & College) মানিকগঞ্জের নবগ্রাম ইউনিয়নের মধ্যে সবচেয়ে আধুনিক
+              গার্লস স্কুল। স্কুলের লক্ষ্য ও উদ্দেশ্য দরিদ্র জনগোষ্ঠীকে
+              শিক্ষিত করে তোলা । এটি একটি সম্পূর্ন সেবামূলক অলাভজনক প্রতিষ্ঠান
+              ।গ্রুপ কিউ এর সদস্য কোম্পানী ও শিল্প প্রতিষ্ঠান সমূহ এবং তাদের
+              পরিচালকবৃন্দ ব্যাক্তিগত আয় থেকে কাজী আবেদীন ওয়েলফেয়ার ট্রাষ্ট
+              গঠনকরত: উক্ত ট্রাষ্টকে অর্থায়ন করেন।
+            </p>
+            <div href="event.html" class="view-more position-relative " data-bs-toggle="modal"
+              data-bs-target="#schoolInfo">Read More</div>
+
+            <!-- schoo lModal -->
+            <div class="modal fade" id="schoolInfo" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Kaniz Fatema Girls' School & College
+                    </h1>
+                    <div type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></div>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/slider/5.jpg" class="w-100 mb-3" alt="" />
+                    <p>
+                      সেই ট্রাস্টের মাধ্যমে সেবামূলক ভিত্তিতে স্কুলটি পরিচালিত
+                      হয়্ এর পেছনে নূন্যতম ব্যবসায়ীক স্বার্থ নেই। আজকের শিশু
+                      আগামী দিনের মা তাই ছাত্রীদের সুন্দর ও সুশিক্ষায় শিক্ষিত
+                      করে গড়ে তোলার প্রত্যয় নিয়ে স্কুলটি কাজ করে যাচ্ছে।
+                      স্কুলটি সম্পূর্ন অরাজনৈতিক ও সেবামূলক প্রতিষ্ঠান হিসেবে
+                      ইতিমধ্যে জেলার শ্রেষ্ঠ স্কুল হিসেবে পরিচিতি পেয়েছে।
+                      নবগ্রাম ইউনিয়নের মধ্যে সবচেয়ে আধুনিক গার্লস স্কুল।
+                      স্কুলের লক্ষ্য ও উদ্দেশ্য দরিদ্র জনগষ্টি কে শিক্ষিত করে
+                      তোলা । দরিদ্র ও মেধাবী শিক্ষার্থীদের জন্য কোন টিউশন ফি
+                      নেওয়া হয় না এবং ইউনিফর্মও ফ্রি দেওয়া হয়ে থাকে।
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="school-video">
+            <div class="video-main">
+              <div class="promo-video">
+                <div class="waves-block">
+                  <div class="waves wave-1"></div>
+                  <div class="waves wave-2"></div>
+                  <div class="waves wave-3"></div>
+                </div>
+              </div>
+              <a href="https://www.youtube.com/watch?v=7rrPWI2N-oc" class="video video-popup mfp-iframe" data-lity><i
+                  class="fa fa-play"></i></a>
+            </div>
+            <img src="img/photo/1.jpg" class="w-100" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- welcome school end -->
+
+  <!-- event start -->
+  <div class="event-area pb-5">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-xl-4 col-lg-4 col-md-6">
+          <div class="single-event news event">
+            <div class="single-event notice bg-white">
+              <h5 class="text-center text-uppercase fw-bold bg-danger text-white p-2">
+                update news
+              </h5>
+              <div class="event-section">
+                <div class="single-notice">
+                  <a href="single-news.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+                <div class="single-notice">
+                  <a href="single-news.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+                <div class="single-notice">
+                  <a href="single-news.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+                <div class="single-notice">
+                  <a href="single-news.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+                <div class="single-notice">
+                  <a href="single-news.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+                <div class="single-notice">
+                  <a href="single-news.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+                <div class="single-notice">
+                  <a href="single-news.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+              </div>
+            </div>
+            <a href="news.html" class="view-more mt-3">view more <i class="fa fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6">
+          <div class="single-event event bg-white">
+            <h5 class="text-center text-uppercase fw-bold bg-danger text-white p-2">
+              update event
+            </h5>
+            <div class="event-section">
+              <div class="single-notice">
+                <a href="single-event.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                <span>27 June, 2023</span>
+              </div>
+              <div class="single-notice">
+                <a href="single-event.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                <span>27 June, 2023</span>
+              </div>
+              <div class="single-notice">
+                <a href="single-event.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                <span>27 June, 2023</span>
+              </div>
+              <div class="single-notice">
+                <a href="single-event.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                <span>27 June, 2023</span>
+              </div>
+              <div class="single-notice">
+                <a href="single-event.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                <span>27 June, 2023</span>
+              </div>
+              <div class="single-notice">
+                <a href="single-event.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                <span>27 June, 2023</span>
+              </div>
+            </div>
+            <a href="event.html" class="view-more mt-3">view more <i class="fa fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6">
+          <div class="position-relative">
+            <div class="single-event notice bg-white">
+              <h5 class="text-center text-uppercase fw-bold bg-danger text-white p-2">
+                notice board
+              </h5>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="scroll" scrollamount="2"
+                direction="up" class="h-100 p-3">
+                <div class="single-notice">
+                  <a href="single-notice.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+                <div class="single-notice">
+                  <a href="single-notice.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+                <div class="single-notice">
+                  <a href="single-notice.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+                <div class="single-notice">
+                  <a href="single-notice.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+                <div class="single-notice">
+                  <a href="single-notice.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+                <div class="single-notice">
+                  <a href="single-notice.html">সবাইকে ঈদ-উল-আজহা উপলক্ষ্যে শুভেচ্ছা</a>
+                  <span>27 June, 2023</span>
+                </div>
+              </marquee>
+            </div>
+            <a href="notice.html" class="view-more mt-3">view more <i class="fa fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- event end -->
+
+  <!-- media start -->
+  <div class="media-area section__padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="institute-media">
+            <nav>
+              <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-photo-tab" data-bs-toggle="tab" data-bs-target="#nav-photo"
+                  type="button" role="tab" aria-controls="nav-photo" aria-selected="true">
+                  photo
+                </button>
+                <button class="nav-link" id="nav-video-tab" data-bs-toggle="tab" data-bs-target="#nav-video"
+                  type="button" role="tab" aria-controls="nav-video" aria-selected="false">
+                  video
+                </button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active position-relative" id="nav-photo" role="tabpanel"
+                aria-labelledby="nav-photo-tab" tabindex="0">
+                <div class="row g-3 align-items-stretch mb-3">
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-image">
+                      <a href="img/photo/1.jpg" data-lightbox="roadtrip" data-title="My caption"><img
+                          src="img/photo/1.jpg" alt="" class="w-100 h-100" /></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-image">
+                      <a href="img/photo/2.jpg" data-lightbox="roadtrip" data-title="My caption"><img
+                          src="img/photo/2.jpg" alt="" class="w-100 h-100" /></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-image">
+                      <a href="img/photo/3.jpg" data-lightbox="roadtrip" data-title="My caption"><img
+                          src="img/photo/3.jpg" alt="" class="w-100 h-100" /></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-image">
+                      <a href="img/photo/4.jpg" data-lightbox="roadtrip" data-title="My caption"><img
+                          src="img/photo/4.jpg" alt="" class="w-100 h-100" /></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-image">
+                      <a href="img/photo/5.jpg" data-lightbox="roadtrip" data-title="My caption"><img
+                          src="img/photo/5.jpg" alt="" class="w-100 h-100" /></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-image">
+                      <a href="img/photo/6.jpg" data-lightbox="roadtrip" data-title="My caption"><img
+                          src="img/photo/6.jpg" alt="" class="w-100 h-100" /></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-image">
+                      <a href="img/photo/7.jpg" data-lightbox="roadtrip" data-title="My caption"><img
+                          src="img/photo/7.jpg" alt="" class="w-100 h-100" /></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-image">
+                      <a href="img/photo/8.jpg" data-lightbox="roadtrip" data-title="My caption"><img
+                          src="img/photo/8.jpg" alt="" class="w-100 h-100" /></a>
+                    </div>
+                  </div>
+                </div>
+                <a href="photo.html" class="view-more">view more <i class="fa fa-arrow-right-long"></i></a>
+              </div>
+              <div class="tab-pane fade position-relative" id="nav-video" role="
+              
+              tabpanel" aria-labelledby="nav-video-tab" tabindex="0">
+                <div class="row g-3 align-items-stretch mb-3">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-video">
+                      <img src="img/photo/1.jpg" alt="" class="w-100 h-100">
+                      <a href="https://www.youtube.com/watch?v=7rrPWI2N-oc" class="video video-popup mfp-iframe"
+                        data-lity><i class="fa fa-play"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-video">
+                      <img src="img/photo/2.jpg" alt="" class="w-100 h-100">
+                      <a href="https://www.youtube.com/watch?v=7rrPWI2N-oc" class="video video-popup mfp-iframe"
+                        data-lity><i class="fa fa-play"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-video">
+                      <img src="img/photo/3.jpg" alt="" class="w-100 h-100">
+                      <a href="https://www.youtube.com/watch?v=7rrPWI2N-oc" class="video video-popup mfp-iframe"
+                        data-lity><i class="fa fa-play"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-video">
+                      <img src="img/photo/4.jpg" alt="" class="w-100 h-100">
+                      <a href="https://www.youtube.com/watch?v=7rrPWI2N-oc" class="video video-popup mfp-iframe"
+                        data-lity><i class="fa fa-play"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-video">
+                      <img src="img/photo/5.jpg" alt="" class="w-100 h-100">
+                      <a href="https://www.youtube.com/watch?v=7rrPWI2N-oc" class="video video-popup mfp-iframe"
+                        data-lity><i class="fa fa-play"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-video">
+                      <img src="img/slider/1.jpg" alt="" class="w-100 h-100">
+                      <a href="https://www.youtube.com/watch?v=7rrPWI2N-oc" class="video video-popup mfp-iframe"
+                        data-lity><i class="fa fa-play"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-video">
+                      <img src="img/photo/7.jpg" alt="" class="w-100 h-100">
+                      <a href="https://www.youtube.com/watch?v=7rrPWI2N-oc" class="video video-popup mfp-iframe"
+                        data-lity><i class="fa fa-play"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="single-video">
+                      <img src="img/photo/8.jpg" alt="" class="w-100 h-100">
+                      <a href="https://www.youtube.com/watch?v=7rrPWI2N-oc" class="video video-popup mfp-iframe"
+                        data-lity><i class="fa fa-play"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <a href="video.html" class="view-more">view more <i class="fa fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- media end -->
+
+  <!-- visit start -->
+  <div class="visit-area pb-5 mb-5">
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="single-visit">
+            <h3>today</h3>
+            <span>100 peoples</span>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="single-visit">
+            <h3>Last Week</h3>
+            <span>1023 peoples</span>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="single-visit">
+            <h3>Last Month</h3>
+            <span>10230 peoples</span>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="single-visit">
+            <h3>Total</h3>
+            <span>1055520 peoples</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- visit end -->
+
+  <!-- main end -->
+
+  <!-- footer start -->
+  <footer>
+    <div class="footer-area section__padding" style="background-color: #222222;">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-4">
+            <div class="footer-widget">
+              <a href="./"><img src="img/logo1.png" class="w-100" alt=""></a>
+              <ul class="mt-4">
+                <li><i class="fa fa-location-dot"></i><span>Baroil,Nabagram,Manikganj</span></li>
+                <li><i class="fa fa-phone"></i><a href="tel:+8801714163520">01714163520</a></li>
+                <li><i class="fa fa-envelope"></i><a href="mailto:kfgsbd@gmail.com">kfgsbd@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4">
+            <div class="footer-widget">
+              <h5>important links</h5>
+              <ul class="mt-4 footer-links">
+                <li><a href="#">Dhaka Education Board</a></li>
+                <li><a href="#">Ministry of Education</a></li>
+                <li><a href="#"> National University</a></li>
+                <li><a href="#">10 minute school</a></li>
+                <li><a href="#">Khan Academy</a></li>
+                <li><a href="#">Teacher's Portal</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4">
+            <div class="footer-widget">
+              <h5>campus life</h5>
+              <ul class="mt-4 footer-links">
+                <li><a href="#">Accommodation</a></li>
+                <li><a href="#">Medical Unit</a></li>
+                <li><a href="#">Campus Shop</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12">
+            <div class="footer-widget">
+              <h5>subscribe</h5>
+              <form action="" method="post" class="mt-4">
+                <input type="email" class="form-control" placeholder="Enter your email">
+                <i class="fa fa-search"></i>
+              </form>
+
+              <div class="footer-social">
+                <a href="#" target="_blank" title="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center pt-3 pb-3 text-white fw-bold" style="background-color: #006CB0;">
+      <span>&copy;
+        <script>document.write(new Date().getFullYear())</script> - Powered by <a href="https://classicit.com.bd/"
+          target="_blank" class="text-black"> Classic IT</a> . All rights reserved.
+      </span>
+    </div>
+
+  </footer>
+  <!-- footer end -->
+
+  <!-- admission contact Modal -->
+  <div class="modal fade" id="admission__contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="exampleModalLabel">
+            <strong>Admission Contact</strong>
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body admission__info">
+          <div class="card p-3 text-center">
+            <img src="img/logo.png" alt="" />
+            <h4>Kaniz Fatema Girls School & College</h4>
+            <h6>Baroil,Nabagram,Manikganj</h6>
+            <p>
+              Admission Help Line :
+              <strong><a href="tel:+8801714163520">01714163520</a></strong>
+            </p>
+            <p>
+              Admission Email :
+              <strong><a href="mailto:kfgsbd@gmail.com">kfgsbd@gmail.com</a></strong>
+            </p>
+            <div class="footer-social">
+              <a href="#" target="_blank" title="facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- bottom fixed -->
+  <a id="download__info" href="img/540cb75550adf33f281f29132dddd14fded85bfc.pdf" download><i
+      class="fa-solid fa-cloud-arrow-down"></i>prospectus</a>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script type="text/javascript">
+    $(window).on('load', function () {
+      $('#myModal').modal('show');
+    });
+  </script>
+
+</body>
+
+</html>
